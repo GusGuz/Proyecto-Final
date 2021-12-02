@@ -1,0 +1,166 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:#f2f2f2;
+	color:#333;
+	font-family:Arial, helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#0011ff;
+}
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.logo {
+	width: 43px;
+	float: left;
+}
+
+.logo img {
+	width:100%;
+	vertical-align: top;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+
+nav ul li a {
+	display: block;
+	background: #f2f2f2;
+	color: #037E8C;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background: #0011ff;
+}
+.txt-center {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.rating {
+    width: 90px;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+}
+
+.rating > label {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+    color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}
+.titulo{
+	font-family: cursive;
+	font-size: 40px;
+}
+.mensaje {
+	background:#0011ff;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	border-radius:5px;
+}
+
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	background:#024959;
+	color:#fff;
+	padding:20px;
+	border-radius:5px;
+}
+
+.widget ul {
+	margin-left:20px;
+}
+
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+
+.widget ul li a {
+	color:#fff;
+}
+
+.widget ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	background:#333;
+	padding:20px 0;
+	color:#fff;
+}
+
+footer p {
+	text-align:center;
+}
